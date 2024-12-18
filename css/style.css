@@ -32,6 +32,7 @@
     transition: border 0.3s;
     border: black 2px solid;
     padding: 10px;
+    text-align: center;
 }
 
 .nav-links a:hover {
