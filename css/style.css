@@ -8,6 +8,7 @@
 .nav-header {
     background-color: #faae2b;
     padding: 10px 20px;
+    border-bottom: #333 2px solid;
 }
 
 .nav-navbar {
@@ -19,6 +20,7 @@
 }
 
 .nav-links {
+    margin-right: 2%;
     list-style: none;
     display: flex;
 }
@@ -26,18 +28,18 @@
 .nav-links a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: black;
+    color: white;
     font-weight: bolder;
     transition: color 0.3s;
     transition: border 0.3s;
-    border: black 2px solid;
+    border: white 2px solid;
     padding: 10px;
     text-align: center;
 }
 
 .nav-links a:hover {
-    color: #fff;
-    border: white 2px solid;
+    color: black;
+    border: black 2px solid;
 }
 
 .nav-links a#home {
@@ -69,4 +71,37 @@
     font-size: 1.3rem;
     cursor: default;
     color: gray;
+}
+
+.main-section {
+    display: flex;
+    gap: 36px;
+    padding-top: 10%;
+    justify-content: center;
+}
+
+.image {
+    height: 360px;
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    border: #333 2px solid;
+}
+
+.image-1 {
+    background-image: url(https://picsum.photos/200);
+}
+
+.form {
+    background-color: antiquewhite;
+    width: 30%;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-left: 40px;
+    border: #333 2px solid;
+}
+
+.form-inputs {
+    margin-top: 15%;
 }

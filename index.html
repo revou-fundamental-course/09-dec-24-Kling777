@@ -44,18 +44,34 @@
 
             <section class="main-section">
                 <!-- Auto Silders -->
-                <aside>
-                    <div>img1</div>
-                    <div>img2</div>
-                    <div>img3</div>
+                <aside class="slider">
+                    <div class="image image-1"></div>
+                    <!-- <div>img2</div>
+                    <div>img3</div> -->
                 </aside>
 
                 <!-- Form -->
-                <form action="">
-                    <label for="name-input">Username: </label>
-                    <input type="text" id="name-input" required>
-                    <button type="submit">Submit</button>
-                </form>
+                <aside class="form">
+                    <header>
+                        <h2 class="form-title">Contact Us</h2>
+                        <p class="">Sales will reach you within 24 hours</p>
+                    </header>
+
+                    <form action="" class="form-inputs">
+                        <label for="Username">Your Name:</label>
+                        <input type="text" name="Username" id="Username" placeholder="First and Last name" />
+
+                        <label for="email">Email address:</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" />
+                        
+                        <label for="interest">What are you interest in?</label>
+                        <select name="" id="interest">
+                            <option value="">Japan</option>
+                            <option value="">Bali</option>
+                            <option value="">New York</option>
+                        </select>
+                    </form>
+                </aside>
             </section>
         </main>
 
