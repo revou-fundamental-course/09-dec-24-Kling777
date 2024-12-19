@@ -41,11 +41,11 @@
 }
 
 .nav-links a#home {
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 7px 0px 0px 7px;
 }
 
 .nav-links a#contact {
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 7px 7px 0px;
 }
 
 .logo {
@@ -59,6 +59,7 @@
 .title {
     text-align: center;
     margin-top: 8%;
+    cursor: default;
     font-size: 3rem;
 }
 
@@ -66,5 +67,6 @@
     text-align: center;
     margin-top: 5%;
     font-size: 1.3rem;
+    cursor: default;
     color: gray;
 }
